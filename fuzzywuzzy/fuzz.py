@@ -261,7 +261,6 @@ def UWRatio(s1, s2):
     using different algorithms. Same as WRatio but preserving unicode.
     """
     return WRatio(s1, s2, force_ascii=False)
-<<<<<<< HEAD
 
 
 #################################
@@ -297,5 +296,3 @@ def AsciiSequenceRatio(s1, s2):
     code1 = AsciiCodeSequence(s1)
     code2 = AsciiCodeSequence(s2)
     return 100 - (100*abs(code1-code2) / (code1+code2))
-=======
->>>>>>> parent of 5e08b54... Functions for calculating matching ratio based on Ascii values
