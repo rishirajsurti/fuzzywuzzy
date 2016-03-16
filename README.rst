@@ -87,6 +87,16 @@ Token Set Ratio
     >>> fuzz.token_set_ratio("fuzzy was a bear", "fuzzy fuzzy was a bear")
         100
 
+Ascii Ratio
+~~~~~~~
+
+.. code:: python
+
+    >>> fuzz.AsciiRatio("firstname lastname", "lastname firstname")
+        100
+    >>> fuzz.token_set_ratio("fuzzy was a bear", "fuzzy fuzzy was a bear")
+        100
+
 Process
 ~~~~~~~
 
